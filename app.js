@@ -9,7 +9,7 @@ app.use(express.static("public"));
 
 app.set("view engine", "ejs");
 
-moongoose.connect("mongodb+srv://jahid_jitu:jahid123@cluster0.q5wvmah.mongodb.net/todoListDB", { useNewUrlParser: true });
+moongoose.connect("", { useNewUrlParser: true });
 const itemSchema = {
    name: String
 };
